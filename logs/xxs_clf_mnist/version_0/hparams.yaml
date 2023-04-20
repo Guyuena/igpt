@@ -1,0 +1,15 @@
+accumulate_grad_batches: 1
+batch_size: 64
+centroids: data/mnist_centroids.npy
+classify: true
+embed_dim: 16
+learning_rate: 0.003
+name: xxs_clf
+num_classes: 10
+num_heads: 2
+num_layers: 8
+num_pixels: 28
+num_vocab: 16
+precision: 32
+steps: 25000
+warmup_steps: 500
